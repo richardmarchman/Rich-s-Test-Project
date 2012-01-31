@@ -1,0 +1,15 @@
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\MvcWebRole1.Tests.dll.config
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\MvcWebRole1.Tests.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\MvcWebRole1.Tests.pdb
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\BusiniessEntities.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\MvcWebRole1.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\ServiceLayer.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\msshrtmi.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\BusiniessEntities.pdb
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\MvcWebRole1.pdb
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\bin\Debug\ServiceLayer.pdb
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\obj\Debug\Interop.MSScriptControl.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\obj\Debug\Tests.csproj.ResolveComReference.cache
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\obj\Debug\MvcWebRole1.Tests.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\obj\Debug\MvcWebRole1.Tests.pdb

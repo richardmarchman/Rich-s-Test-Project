@@ -1,0 +1,7 @@
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\obj\Debug\ServiceLayer.csprojResolveAssemblyReference.cache
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\bin\Debug\ServiceLayer.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\bin\Debug\ServiceLayer.pdb
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\bin\Debug\BusiniessEntities.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\bin\Debug\BusiniessEntities.pdb
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\obj\Debug\ServiceLayer.dll
+c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\obj\Debug\ServiceLayer.pdb

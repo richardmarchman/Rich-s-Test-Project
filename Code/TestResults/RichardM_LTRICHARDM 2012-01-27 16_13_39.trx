@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="05a18a26-370b-4d50-9a2c-285bc3198a71" name="RichardM@LTRICHARDM 2012-01-27 16:13:39" runUser="CORP\RichardM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="TestSettings1" id="b9022bd2-ce42-43f0-9a40-c773c8d5ab86">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="RichardM_LTRICHARDM 2012-01-27 16_13_39">
+      <DeploymentItem filename="c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1\bin\MvcWebRole1.dll" />
+      <DeploymentItem filename="MvcWebRole1.Tests\Scripts\" />
+      <DeploymentItem filename="c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\BusiniessEntities\bin\Debug\BusiniessEntities.dll" />
+      <DeploymentItem filename="c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\bin\Debug\ServiceLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-27T16:13:39.3249567-05:00" queuing="2012-01-27T16:13:41.5041746-05:00" start="2012-01-27T16:13:41.8242066-05:00" finish="2012-01-27T16:13:48.7108952-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="c5837eb8-4f9f-bb3d-b390-1b51c70134c9">
+      <Execution id="e9e3c1ca-beab-4852-86e4-aa791067494f" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Controllers.HomeControllerTest, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="40a235ea-a660-afed-e385-02b2a861971f">
+      <Execution id="06eac736-2156-48ea-988e-c59b2dc61a4d" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Services.ServicesTests, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="524b53cc-3b76-8996-3740-bbb09098c872">
+      <Execution id="ab611494-774e-4646-8a98-29e0a949c715" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Controllers.HomeControllerTest, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="TestAddNumbersSuccess" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="cf1f080a-ebbb-70ef-9e04-88ba7a25df0f">
+      <Execution id="40d6435a-f0a6-472b-ab58-54ca6a25c12b" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Scripts.MathUnitTests, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddNumbersSuccess" />
+    </UnitTest>
+    <UnitTest name="TestAddNumbers" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="3f2cdce8-9ccd-2cd9-3718-edbdc6b48b1f">
+      <Execution id="27ccdf31-b6f1-4033-88e4-ab96c97365da" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Scripts.MathUnitTests, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddNumbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3f2cdce8-9ccd-2cd9-3718-edbdc6b48b1f" executionId="27ccdf31-b6f1-4033-88e4-ab96c97365da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40a235ea-a660-afed-e385-02b2a861971f" executionId="06eac736-2156-48ea-988e-c59b2dc61a4d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="524b53cc-3b76-8996-3740-bbb09098c872" executionId="ab611494-774e-4646-8a98-29e0a949c715" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5837eb8-4f9f-bb3d-b390-1b51c70134c9" executionId="e9e3c1ca-beab-4852-86e4-aa791067494f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf1f080a-ebbb-70ef-9e04-88ba7a25df0f" executionId="40d6435a-f0a6-472b-ab58-54ca6a25c12b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="27ccdf31-b6f1-4033-88e4-ab96c97365da" testId="3f2cdce8-9ccd-2cd9-3718-edbdc6b48b1f" testName="TestAddNumbers" computerName="LTRICHARDM" duration="00:00:04.6852470" startTime="2012-01-27T16:13:41.9772219-05:00" endTime="2012-01-27T16:13:48.3628604-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27ccdf31-b6f1-4033-88e4-ab96c97365da">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected value 4 is not equal to 5. addNumbers did not work!</Message>
+          <StackTrace>   at MvcWebRole1.Tests.Scripts.JavaScriptTestHelper.ExecuteTest(String testMethodName) in c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\Scripts\JavaScriptTestHelpers.cs:line 70
+   at MvcWebRole1.Tests.Scripts.MathUnitTests.TestAddNumbers() in c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1.Tests\Scripts\MathUnitTests.cs:line 86
+</StackTrace>
+        </ErrorInfo>
+        <TextMessages>
+          <Message>Microsoft JScript runtime error 
+Line: 7 Column: 12</Message>
+        </TextMessages>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="06eac736-2156-48ea-988e-c59b2dc61a4d" testId="40a235ea-a660-afed-e385-02b2a861971f" testName="TestMethod1" computerName="LTRICHARDM" duration="00:00:00.0002362" startTime="2012-01-27T16:13:48.3698611-05:00" endTime="2012-01-27T16:13:48.3758617-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06eac736-2156-48ea-988e-c59b2dc61a4d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ab611494-774e-4646-8a98-29e0a949c715" testId="524b53cc-3b76-8996-3740-bbb09098c872" testName="About" computerName="LTRICHARDM" duration="00:00:00.0615146" startTime="2012-01-27T16:13:48.3808622-05:00" endTime="2012-01-27T16:13:48.4478689-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab611494-774e-4646-8a98-29e0a949c715">
+    </UnitTestResult>
+    <UnitTestResult executionId="e9e3c1ca-beab-4852-86e4-aa791067494f" testId="c5837eb8-4f9f-bb3d-b390-1b51c70134c9" testName="Index" computerName="LTRICHARDM" duration="00:00:00.1441634" startTime="2012-01-27T16:13:48.4548696-05:00" endTime="2012-01-27T16:13:48.6318873-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9e3c1ca-beab-4852-86e4-aa791067494f">
+    </UnitTestResult>
+    <UnitTestResult executionId="40d6435a-f0a6-472b-ab58-54ca6a25c12b" testId="cf1f080a-ebbb-70ef-9e04-88ba7a25df0f" testName="TestAddNumbersSuccess" computerName="LTRICHARDM" duration="00:00:00.0103998" startTime="2012-01-27T16:13:48.6368878-05:00" endTime="2012-01-27T16:13:48.6508892-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40d6435a-f0a6-472b-ab58-54ca6a25c12b">
+    </UnitTestResult>
+  </Results>
+</TestRun>

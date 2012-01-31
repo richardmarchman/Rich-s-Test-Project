@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e879dd59-80cf-4dda-9aa2-32cd6b463f94" name="RichardM@LTRICHARDM 2012-01-27 15:55:59" runUser="CORP\RichardM" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="TestSettings1" id="b9022bd2-ce42-43f0-9a40-c773c8d5ab86">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment runDeploymentRoot="RichardM_LTRICHARDM 2012-01-27 15_55_59">
+      <DeploymentItem filename="c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\MvcWebRole1\bin\MvcWebRole1.dll" />
+      <DeploymentItem filename="MvcWebRole1.Tests\Scripts\" />
+      <DeploymentItem filename="c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\BusiniessEntities\bin\Debug\BusiniessEntities.dll" />
+      <DeploymentItem filename="c:\users\richardm\documents\visual studio 2010\Projects\UnitTestingSample\ServiceLayer\bin\Debug\ServiceLayer.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-01-27T15:55:59.4929841-05:00" queuing="2012-01-27T15:56:00.8681216-05:00" start="2012-01-27T15:56:01.1431491-05:00" finish="2012-01-27T15:56:53.0033346-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="5" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="4" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LTRICHARDM" outcome="Error" timestamp="2012-01-27T15:56:53.0023345-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="c5837eb8-4f9f-bb3d-b390-1b51c70134c9">
+      <Execution id="93721f06-ba7d-4408-b81b-35197ff6afe2" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Controllers.HomeControllerTest, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="40a235ea-a660-afed-e385-02b2a861971f">
+      <Execution id="926d8f4d-b805-4dc5-adff-d747733748bc" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Services.ServicesTests, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="About" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="524b53cc-3b76-8996-3740-bbb09098c872">
+      <Execution id="f56e73a6-e5c8-4a9b-a216-8bde6c9c01bb" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Controllers.HomeControllerTest, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="About" />
+    </UnitTest>
+    <UnitTest name="TestAddNumbersSuccess" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="cf1f080a-ebbb-70ef-9e04-88ba7a25df0f">
+      <Execution id="05fac948-53b1-44b8-8161-ddb8b193c3a7" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Scripts.MathUnitTests, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddNumbersSuccess" />
+    </UnitTest>
+    <UnitTest name="TestAddNumbers" storage="c:\users\richardm\documents\visual studio 2010\projects\unittestingsample\mvcwebrole1.tests\bin\debug\mvcwebrole1.tests.dll" id="3f2cdce8-9ccd-2cd9-3718-edbdc6b48b1f">
+      <Execution id="b63abfb9-c7a5-4edd-920d-0e32f26d2ce4" />
+      <TestMethod codeBase="c:/users/richardm/documents/visual studio 2010/Projects/UnitTestingSample/MvcWebRole1.Tests/bin/Debug/MvcWebRole1.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MvcWebRole1.Tests.Scripts.MathUnitTests, MvcWebRole1.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAddNumbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3f2cdce8-9ccd-2cd9-3718-edbdc6b48b1f" executionId="b63abfb9-c7a5-4edd-920d-0e32f26d2ce4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40a235ea-a660-afed-e385-02b2a861971f" executionId="926d8f4d-b805-4dc5-adff-d747733748bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="524b53cc-3b76-8996-3740-bbb09098c872" executionId="f56e73a6-e5c8-4a9b-a216-8bde6c9c01bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5837eb8-4f9f-bb3d-b390-1b51c70134c9" executionId="93721f06-ba7d-4408-b81b-35197ff6afe2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf1f080a-ebbb-70ef-9e04-88ba7a25df0f" executionId="05fac948-53b1-44b8-8161-ddb8b193c3a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b63abfb9-c7a5-4edd-920d-0e32f26d2ce4" testId="3f2cdce8-9ccd-2cd9-3718-edbdc6b48b1f" testName="TestAddNumbers" computerName="LTRICHARDM" duration="00:00:51.7001695" startTime="2012-01-27T15:56:01.3031651-05:00" endTime="2012-01-27T15:56:53.0033346-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b63abfb9-c7a5-4edd-920d-0e32f26d2ce4">
+    </UnitTestResult>
+    <UnitTestResult executionId="926d8f4d-b805-4dc5-adff-d747733748bc" testId="40a235ea-a660-afed-e385-02b2a861971f" testName="TestMethod1" computerName="LTRICHARDM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="926d8f4d-b805-4dc5-adff-d747733748bc">
+    </UnitTestResult>
+    <UnitTestResult executionId="f56e73a6-e5c8-4a9b-a216-8bde6c9c01bb" testId="524b53cc-3b76-8996-3740-bbb09098c872" testName="About" computerName="LTRICHARDM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f56e73a6-e5c8-4a9b-a216-8bde6c9c01bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="93721f06-ba7d-4408-b81b-35197ff6afe2" testId="c5837eb8-4f9f-bb3d-b390-1b51c70134c9" testName="Index" computerName="LTRICHARDM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93721f06-ba7d-4408-b81b-35197ff6afe2">
+    </UnitTestResult>
+    <UnitTestResult executionId="05fac948-53b1-44b8-8161-ddb8b193c3a7" testId="cf1f080a-ebbb-70ef-9e04-88ba7a25df0f" testName="TestAddNumbersSuccess" computerName="LTRICHARDM" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05fac948-53b1-44b8-8161-ddb8b193c3a7">
+    </UnitTestResult>
+  </Results>
+</TestRun>
